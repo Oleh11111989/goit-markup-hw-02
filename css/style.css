@@ -1,0 +1,158 @@
+:root{
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --background-color: #FFFFFF;
+  --highlight-color: #2196F3;
+}
+body{
+  text-decoration: none;
+  font-family: Roboto,Sans-sarif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--main-text-color);
+}
+/* логотип */
+.logo{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,2em;
+  text-decoration: none;
+}
+.logo-color{
+  color: var(--highlight-color);
+}
+
+/*Навигация + контакты*/
+.nav-list{
+  list-style-type: none;
+}
+.nav-element{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+}
+.nav-element:hover, .nav-element:focus{
+ color: var(--highlight-color);
+}
+
+.contacts{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  color: var(--secondary-text-color);
+}
+.contacts:hover, .contacts:focus{
+  color: var(--highlight-color);
+}
+/* Герой */
+.hero{
+  background-color: #2F303A;
+}
+.hero-title{
+  color: var(--background-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.36em;
+}
+.order-button{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  cursor: pointer;
+}
+.order-button:hover, .order-button:focus{
+color: var(--background-color);
+background-color: var(--highlight-color);
+}
+/* Преимущества */
+
+.advantages{
+  list-style-type: none;
+}
+.advantages-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em; 
+}
+.advantages-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  color: var(--secondary-text-color);
+}
+/* Чем мы занимаемся */
+.section-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  color: var(--main-text-color);
+}
+.image-list{
+  list-style-type: none;
+}
+/* Наша команда */
+.section-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em; 
+}
+.team{
+  list-style-type: none;
+}
+.member-team{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+}
+.position{
+  font-size: 16px;
+  line-height: 1.18em;
+  color: var(--secondary-text-color);
+}
+/* Портфолио */
+
+/* Кнопки */
+.button-list{
+  list-style-type: none;
+}
+.project-button{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6em;
+  cursor: pointer;
+}
+.project-button:hover, .project-button:focus{
+  background-color: var(--highlight-color);
+  color: var(--background-color);
+}
+.project-list{
+  list-style-type: none;
+}
+.project-titel{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+}
+.project-text{
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.88em;
+  color: var(--secondary-text-color);
+}
