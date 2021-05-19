@@ -20,6 +20,7 @@ body{
   font-size: 26px;
   line-height: 1,2em;
   text-decoration: none;
+  color: #000000;
 }
 .logo-color{
   color: var(--highlight-color);
@@ -155,4 +156,11 @@ background-color: var(--highlight-color);
   font-size: 16px;
   line-height: 1.88em;
   color: var(--secondary-text-color);
+}
+/* Подвал */
+.address-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71em;
 }
