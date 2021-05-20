@@ -30,12 +30,18 @@ body{
 .nav-list{
   list-style-type: none;
 }
+
+.site-nav .nav-element.active{
+color: var(--highlight-color);
+}
+
 .nav-element{
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
+  color: var(--main-text-color);
 }
 .nav-element:hover, .nav-element:focus{
  color: var(--highlight-color);
@@ -57,6 +63,7 @@ body{
   background-color: #2F303A;
 }
 .hero-title{
+  text-transform: uppercase;
   color: var(--background-color);
   font-style: normal;
   font-weight: 700;
@@ -69,6 +76,7 @@ body{
   font-size: 16px;
   line-height: 1.87em;
   cursor: pointer;
+  letter-spacing: 0.06em;
 }
 .order-button:hover, .order-button:focus{
 color: var(--background-color);
@@ -84,6 +92,7 @@ background-color: var(--highlight-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14em; 
+  text-transform: uppercase;
 }
 .advantages-text{
   font-style: normal;
@@ -131,11 +140,13 @@ background-color: var(--highlight-color);
   list-style-type: none;
 }
 .project-button{
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6em;
   cursor: pointer;
+  letter-spacing: 0.03em
 }
 .project-button:hover, .project-button:focus{
   background-color: var(--highlight-color);
@@ -158,9 +169,19 @@ background-color: var(--highlight-color);
   color: var(--secondary-text-color);
 }
 /* Подвал */
+.color-footer{
+  background-color: #2F303A;
+}
+.logo-footer .logo{
+  color: var(--background-color);
+}
 .address-text{
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71em;
+  color: var(--background-color);
+}
+.footer-contacts .contacts{
+  color: rgba(255, 255, 255, 0,6);
 }
