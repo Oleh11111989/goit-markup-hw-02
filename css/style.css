@@ -71,6 +71,7 @@ color: var(--highlight-color);
   line-height: 1.36em;
 }
 .order-button{
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -174,6 +175,12 @@ background-color: var(--highlight-color);
 }
 .logo-footer .logo{
   color: var(--background-color);
+}
+.address-link{
+  text-decoration: none;
+}
+.address-text:hover, .address-text:focus{
+  color: #2196F3;
 }
 .address-text{
   font-family: Roboto;
